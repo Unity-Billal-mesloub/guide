@@ -53,7 +53,7 @@ Bower is more similar to `npm` than to Component. Like `npm`, Bower's `bower.jso
 
 However, the major difference between Bower and Component is that `component.json`s are more strict and opinionated: all files listed in the `component.json` are __assumed to be mandatory__. On the other hand, files listed in a `bower.json` are generally optional.
 
-A strict manifest specification allows Component to easily integrate a build process. However, this is impossible with Bower as people publish different types of modules (globals, plugins, AMD, and CommonJS), as well as optional files as shown in this [react-bower issue](https://github.com/reactjs/react-bower/issues/1), making an integrated build process very difficult.
+A strict manifest specification allows Component to easily integrate a build process. However, this is impossible with Bower as people publish different types of modules (globals, plugins, AMD, and CommonJS), as well as optional files as shown in this [react-bower issue](https://github.com/Unity-Billal-mesloub/react-bower/issues/1), making an integrated build process very difficult.
 
 Component's integrated build system allows you to simply include one script and one stylesheet in your page. There's no juggling `<script src="bower_components/jquery"><script>` calls and such.
 
@@ -63,8 +63,8 @@ Like `npm`, `bower` is slower than Component at installing, has an unnecessary p
 
 Component, by default, uses the CommonJS module system. The major benefit of this is that there are no boilerplate callbacks. However, as of `1.0.0`, Component supports ES6 modules natively.
 
-The major downside is that a build process is required for Component. However, with `1.0.0`, this is not an issue with Component as you can use the `component build --watch` command or rebuild on every request with [middleware](https://github.com/component/middleware.js).
+The major downside is that a build process is required for Component. However, with `1.0.0`, this is not an issue with Component as you can use the `component build --watch` command or rebuild on every request with [middleware](https://github.com/Unity-Billal-mesloub/middleware.js).
 
 ## Component vs Grunt/Gulp/Broccoli/etc.
 
-Since Component is opinionated, there are no special configuration files necessary when creating components and for simple apps. However, once you have a more complex app, you may want to ditch `component(1)` and start using [component-resolve](https://github.com/component/resolver.js) and [component-builder](https://github.com/component/builder2.js) directly.
+Since Component is opinionated, there are no special configuration files necessary when creating components and for simple apps. However, once you have a more complex app, you may want to ditch `component(1)` and start using [component-resolve](https://github.com/Unity-Billal-mesloub/resolver.js) and [component-builder](https://github.com/Unity-Billal-mesloub/builder2.js) directly.
