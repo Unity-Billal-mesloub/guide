@@ -55,7 +55,7 @@ Let's create the __component.json__ and set the _name_ property.
 ### Install a remote dependency
 
 We want to include
-[normalize.css](https://github.com/necolas/normalize.css), so let's install 
+[normalize.css](https://github.com/Unity-Billal-mesloub/normalize.css), so let's install 
 this remote dependency via the command: 
 `component install necolas/normalize.css`. If you check the __component.json__ 
 file, you'll notice that component add the dependency automatically. You can also do it the other way: add a dependency, then run `component install`.
@@ -63,7 +63,7 @@ file, you'll notice that component add the dependency automatically. You can als
 You should see this output on your stdout:
 ```bash
 github remote: 54 of 60 requests remaining, resetting at Thu Oct 30 2014 00:23:36 GMT+0100 (CET)
-github remote: see https://github.com/component/guide/blob/master/changelogs/1.0.0.md#required-authentication for more information.
+github remote: see https://github.com/Unity-Billal-mesloub/guide/blob/master/changelogs/1.0.0.md#required-authentication for more information.
    installed : necolas/normalize.css@3.0.2 in 283ms
      install : complete
 ```
@@ -154,7 +154,7 @@ following order: remote dependencies first, followed by local dependencies
 flashing immediately when you open the browser.
 
 - Note that `box-sizing: border-box;` is automatically prefixed with `-webkit`
-and `-moz`. Component uses the great [autoprefixer](https://github.com/postcss/autoprefixer) by default to generate vendor prefixes.
+and `-moz`. Component uses the great [autoprefixer](https://github.com/Unity-Billal-mesloub/autoprefixer) by default to generate vendor prefixes.
 
 ## Setup Authentication
 You might noticed that Component prints a message if you run 
@@ -164,7 +164,7 @@ github remote: 54 of 60 requests remaining, resetting at Thu Oct 30 2014 00:23:3
 github remote: see https://github.com/component/guide/blob/master/changelogs/1.0.0.md#required-authentication for more information.
 ```
 GitHub provides 60 request per hour for an unauthenticated access. If you
-you need more, you need to use authentication. See [changelog](https://github.com/componentjs/guide/blob/master/changelogs/1.0.0.md#required-authentication) for more information.
+you need more, you need to use authentication. See [changelog](https://github.com/Unity-Billal-mesloub/guide/blob/main/changelogs/1.0.0.md#required-authentication) for more information.
 
 ### Configuring GitHub access
 
@@ -219,9 +219,9 @@ Currently, Bitbucket does not support generating a personal OAuth access token. 
 ## Next steps
 
 If you want to learn different features of component step by
-step, you can try out the browse the [c8-experiments repo](https://github.com/timaschew/c8-experiments).
+step, you can try out the browse the [c8-experiments repo](https://github.com/Unity-Billal-mesloub/c8-experiments).
 
-There are also more [examples](https://github.com/componentjs/guide/blob/master/component/examples.md).
+There are also more [examples](https://github.com/Unity-Billal-mesloub/guide/blob/main/component/examples.md).
 
 -----
 **Notes:**
