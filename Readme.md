@@ -1,5 +1,5 @@
 # THIS PROJECT IS DEPRECATED
-Component is __deprecated__, see [componentjs/component](https://github.com/Unity-Billal-mesloub/component/blob/master/Readme.md)
+Component is __deprecated__, see [componentjs/component](https://github.com/Unity-Billal-mesloub/component/blob/main/Readme.md)
 
 # Component Guide
 
@@ -12,7 +12,7 @@ Feel free to open a PRs with edits! Please be concise!
 
 - [v1.0.0](changelogs/1.0.0.md)
 
-You can always view the boring [history.md](https://github.com/Unity-Billal-mesloub/component/blob/master/History.md).
+You can always view the boring [history.md](https://github.com/Unity-Billal-mesloub/component/blob/main/History.md).
 
 ## Community
 
