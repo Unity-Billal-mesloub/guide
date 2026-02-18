@@ -8,7 +8,7 @@ Boilerplates:
 Examples:
 
 - Different examples how to use component, step by step [c8-experiments](https://github.com/Unity-Billal-mesloub/c8-experiments)
-- Example using [script tags](https://github.com/component/script-tag-example) for integrating component with existing non-commonjs applications or frameworks
+- Example using [script tags](https://github.com/Unity-Billal-mesloub/script-tag-example) for integrating component with existing non-commonjs applications or frameworks
 - [kewah/component-example](https://github.com/Unity-Billal-mesloub/component-example) - simple app example (router + transition between pages)
 - [Todo list](https://github.com/Unity-Billal-mesloub/todo) example comprised of private and public components
 
