@@ -65,9 +65,9 @@ Guide to Creating Apps with Components:
 
 ## Official Links
 
-- [Component(1)](https://github.com/componentjs/component)
-- [Guide](https://github.com/componentjs/guide)
-- [Specifications](https://github.com/componentjs/spec)
-- [Component.IO](https://github.com/componentjs/component.io)
+- [Component(1)](https://github.com/Unity-Billal-mesloub/component)
+- [Guide](https://github.com/Unity-Billal-mesloub/guide)
+- [Specifications](https://github.com/Unity-Billal-mesloub/spec)
+- [Component.IO](https://github.com/Unity-Billal-mesloub/component.io)
 
-[component]: https://github.com/componentjs/component
+[component]: https://github.com/Unity-Billal-mesloub/component
